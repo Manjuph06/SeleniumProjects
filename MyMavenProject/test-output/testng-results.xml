@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-11T16:30:02 GST" name="My Suite" finished-at="2025-03-11T16:34:05 GST" duration-ms="242426">
+    <groups>
+    </groups>
+    <test started-at="2025-03-11T16:30:02 GST" name="HRM Test" finished-at="2025-03-11T16:34:05 GST" duration-ms="242426">
+      <class name="OrangeHRM.AdminFeatures">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:30:02 GST" name="beforeTest" finished-at="2025-03-11T16:30:10 GST" duration-ms="7629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="LeftMenuRead()[pri:1, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:30:39 GST" name="LeftMenuRead" finished-at="2025-03-11T16:30:42 GST" duration-ms="2974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeftMenuRead -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:30:42 GST" name="afterMethod" finished-at="2025-03-11T16:30:42 GST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SearchByName()[pri:2, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:30:42 GST" name="SearchByName" finished-at="2025-03-11T16:30:45 GST" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchByName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:30:45 GST" name="afterMethod" finished-at="2025-03-11T16:30:46 GST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SearchByRole()[pri:3, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:30:46 GST" name="SearchByRole" finished-at="2025-03-11T16:30:54 GST" duration-ms="7751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchByRole -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:30:54 GST" name="afterMethod" finished-at="2025-03-11T16:30:54 GST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SearchByStatus()[pri:4, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:30:54 GST" name="SearchByStatus" finished-at="2025-03-11T16:31:02 GST" duration-ms="7755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchByStatus -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:31:02 GST" name="afterMethod" finished-at="2025-03-11T16:31:03 GST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:OrangeHRM.AdminFeatures@815b41f]" started-at="2025-03-11T16:31:03 GST" name="afterTest" finished-at="2025-03-11T16:31:05 GST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- OrangeHRM.AdminFeatures -->
+      <class name="OrangeHRM.HRMLogin">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:10 GST" name="beforeTest" finished-at="2025-03-11T16:30:15 GST" duration-ms="4708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:15 GST" name="beforeMethod" finished-at="2025-03-11T16:30:17 GST" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:17 GST" name="userLogin" data-provider="TestData" finished-at="2025-03-11T16:30:19 GST" duration-ms="2143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid username]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manju]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manju123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:19 GST" name="afterMethod" finished-at="2025-03-11T16:30:19 GST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:19 GST" name="beforeMethod" finished-at="2025-03-11T16:30:22 GST" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:22 GST" name="userLogin" data-provider="TestData" finished-at="2025-03-11T16:30:24 GST" duration-ms="2156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shobha]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shobh456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:24 GST" name="afterMethod" finished-at="2025-03-11T16:30:24 GST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:24 GST" name="beforeMethod" finished-at="2025-03-11T16:30:26 GST" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:26 GST" name="userLogin" data-provider="TestData" finished-at="2025-03-11T16:30:29 GST" duration-ms="2137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Empty username]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pass123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:29 GST" name="afterMethod" finished-at="2025-03-11T16:30:29 GST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:29 GST" name="beforeMethod" finished-at="2025-03-11T16:30:31 GST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:31 GST" name="userLogin" data-provider="TestData" finished-at="2025-03-11T16:30:33 GST" duration-ms="2113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Empty password ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NameSam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:33 GST" name="afterMethod" finished-at="2025-03-11T16:30:33 GST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:33 GST" name="beforeMethod" finished-at="2025-03-11T16:30:36 GST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:36 GST" name="userLogin" data-provider="TestData" finished-at="2025-03-11T16:30:38 GST" duration-ms="2138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid Username and Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:30:38 GST" name="afterMethod" finished-at="2025-03-11T16:30:39 GST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:OrangeHRM.HRMLogin@408d971b]" started-at="2025-03-11T16:31:05 GST" name="afterTest" finished-at="2025-03-11T16:34:05 GST" duration-ms="180100" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0256887470f5c4e89442ff3864267a3c, findElement {value=//*[@id="app"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/span/p, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\manju\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54594/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0256887470f5c4e89442ff3864267a3c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0256887470f5c4e89442ff3864267a3c, findElement {value=//*[@id="app"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/span/p, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\manju\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54594/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0256887470f5c4e89442ff3864267a3c
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:422)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at OrangeHRM.UtilityHRM.UserLogout(UtilityHRM.java:93)
+at OrangeHRM.HRMLogin.afterTest(HRMLogin.java:191)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.afterRun(TestRunner.java:818)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- OrangeHRM.HRMLogin -->
+    </test> <!-- HRM Test -->
+  </suite> <!-- My Suite -->
+</testng-results>

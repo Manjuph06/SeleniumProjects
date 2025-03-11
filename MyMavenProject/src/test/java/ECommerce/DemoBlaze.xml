@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "My Suite">
+	<test name = "ECommerce Test">
+	 	<parameters>
+			<parameter name = "browser" value = "Edge"></parameter>
+			<parameter name = "os" value = "Windows 10"></parameter>
+		</parameters>
+		
+		<classes>
+			<class name = "ECommerce.ProductStore">
+			</class>
+		</classes>
+	</test>
+</suite>
